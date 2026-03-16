@@ -308,7 +308,12 @@ footer img {
     max-width: 100%;
     }
     .feature-container {
-    flex-wrap: wrap;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .feature-block {
+        width: 40%;
+        margin: 0;
     }
     .feature-page-block {
         text-align: start;
